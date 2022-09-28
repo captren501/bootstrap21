@@ -1,0 +1,9 @@
+POST http://localhost:5000/
+Content-Type: application/json;
+
+{
+    "name": "take garbage out",
+    "completed": false
+}
+##################################
+GET http://localhost:5000/
